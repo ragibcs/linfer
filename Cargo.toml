@@ -1,0 +1,25 @@
+[workspace]
+members = [
+    "crates/linfer-frontend",
+    "crates/linfer-ir",
+    "crates/linfer-compiler",
+    "crates/linfer-kernel",
+    "crates/linfer-runtime",
+    "crates/linfer-format",
+    "crates/linfer-cli",
+]
+resolver = "2"
+
+[workspace.package]
+edition = "2021"
+license = "MIT"
+version = "0.1.0"
+
+[workspace.dependencies]
+anyhow = "1"
+clap = { version = "4.5", features = ["derive"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+memmap2 = "0.9"
+thiserror = "1"
+rand = "0.9"

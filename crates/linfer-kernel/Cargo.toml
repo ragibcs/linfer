@@ -1,0 +1,11 @@
+[package]
+name = "linfer-kernel"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+
+[build-dependencies]
+cc = "1"
