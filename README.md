@@ -2,7 +2,10 @@
 
 `linfer` is a local LLM workflow tool written in Rust.
 
-
+[![GitHub stars](https://img.shields.io/github/stars/ragibcs/linfer?style=flat)](https://github.com/ragibcs/linfer/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/ragibcs/linfer?style=flat)](https://github.com/ragibcs/linfer/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/ragibcs/linfer?style=flat)](https://github.com/ragibcs/linfer/issues)
+[![Visitors](https://visitor-badge.laobi.icu/badge?page_id=ragibcs.linfer)](https://github.com/ragibcs/linfer)
 
 It can:
 - get models from Hugging Face
