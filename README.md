@@ -40,7 +40,7 @@ linfer list-archs
 
 ## Architecture Diagram
 
-![Architecture Diagram](resourses/diagram.svg)
+![Architecture Diagram](resources/diagram.svg)
 
 - **Gated/private models:** need a Hugging Face token to work.
 
